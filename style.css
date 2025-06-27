@@ -1,0 +1,171 @@
+header {
+     background-image: linear-gradient(to right, rgb(0, 0, 0) , white, rgb(0, 0, 0));
+    color: white;
+    padding: 5px 0;
+}
+
+img{
+    max-width: 75%;
+    height: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(0, 0, 0) , white, rgb(0, 0, 0));
+}
+
+h1 {
+    color: #020202;
+    text-shadow: #ffffff 2px 2px 2px;
+    
+}
+
+p {
+    color: #000000;
+    font-size: 1.2em;
+    text-shadow: #ffffff 1px 1px 1px;
+  
+}
+
+div {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ffd000;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.grid{
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    grid-template-areas: 
+     "a b";
+    background-color: rgb(7, 7, 7);
+   
+}
+   .mEOW {
+    background-color: #f7fdf7;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+     box-shadow: #ffffff 0px 0px 10px;
+   }
+
+   .GHOST {
+ 
+    background-color: #f7fdf7;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+     box-shadow: #ffffff 0px 0px 10px;
+   }
+
+   .Birdie {
+ 
+    background-color: #f7fdf7;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+     box-shadow: #ffffff 0px 0px 10px;
+   }
+
+   .Room {
+   
+    background-color: #f7fdf7;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+     box-shadow: #ffffff 0px 0px 10px;
+   }
+
+   .Hayaomiyazaki {
+
+    background-color: #f7fdf7;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+     box-shadow: #ffffff 0px 0px 10px;
+
+   }
+
+   .box {
+   background-image: linear-gradient(to top, rgb(0, 0, 0) , white, rgb(0, 0, 0));
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center; 
+   }
+   .animated {
+    background-color: #000000;
+    margin-top: auto;
+    box-shadow: #fbff00 0px 0px 10px;
+    margin-bottom: auto;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    animation: wobble 1s ease-in-out infinite alternate ;
+   }
+@keyframes wobble {
+    0% { transform: rotate(-20deg); }
+    100% { transform: rotate(20deg); }
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+     box-shadow: #ffe600 0px 0px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    img {
+        max-width: 100%;
+    }
+    .grid {
+        grid-template-areas: 
+         "a"
+         "b";
+    }
+    .flex {
+        flex-direction: column;
+    }
+    
+}
+   footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid #ffd000;
+    }
+
+
+    a{color: #ffffff;
+    text-decoration: none;
+   }
+
+   .a:hover {
+    color: #ffd000;
+}
